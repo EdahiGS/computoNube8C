@@ -5,10 +5,11 @@ import Footer from "components/Footer";
 import BotDesign from "components/Bot";
 export default function Landing() {
 	const [show, setShow] = useState(false);
+
 	return (
 		<>
 			<Navbar transparent />
-
+		
 			<main>
 				<div
 					className="relative pt-16 pb-32 flex content-center items-center justify-center"
@@ -280,6 +281,7 @@ export default function Landing() {
 								</p>
 							</div>
 						</div>
+						
 						<div className="flex flex-wrap">
 							<div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
 								<div className="px-6">
