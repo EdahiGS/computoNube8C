@@ -5,11 +5,10 @@ import Footer from "components/Footer";
 import BotDesign from "components/Bot";
 export default function Landing() {
 	const [show, setShow] = useState(false);
-
 	return (
 		<>
 			<Navbar transparent />
-		
+
 			<main>
 				<div
 					className="relative pt-16 pb-32 flex content-center items-center justify-center"
@@ -21,11 +20,11 @@ export default function Landing() {
 						className="absolute top-0 w-full h-full bg-center bg-cover"
 						style={{
 							backgroundImage:
-								"url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80')",
+								"url('https://encuentratubeca.mx/wp-content/uploads/2016/05/sep-color.jpg')",
 						}}
 					>
 						<span
-							id="blackOverlay"
+							id="blackOverlay"	
 							className="w-full h-full absolute opacity-75 bg-black"
 						></span>
 					</div>
@@ -34,13 +33,15 @@ export default function Landing() {
 							<div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
 								<div className="pr-12">
 									<h1 className="text-white font-semibold text-5xl">
-										Your story starts with us.
+										SEP
 									</h1>
 									<p className="mt-4 text-lg text-gray-300">
-										This is a simple example of a Landing Page you can build
-										using Tailwind Starter Kit. It features multiple CSS
-										components based on the Tailwindcss design system.
+									Dependencia del gobierno federal que se encarga de crear las condiciones 
+									que permitan asegurar el acceso de la población mexicana a una educación 
+									de calidad, en el nivel y modalidad que la requiera y en la localidad 
+									donde la demande.
 									</p>
+									
 								</div>
 							</div>
 						</div>
@@ -73,12 +74,15 @@ export default function Landing() {
 								<div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
 									<div className="px-4 py-5 flex-auto">
 										<div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
-											<i className="fas fa-award"></i>
+											<i className="fas fa-pen"></i>
 										</div>
-										<h6 className="text-xl font-semibold">Awarded Agency</h6>
+										<a href="https://educacionbasica.sep.gob.mx/">
+										<h6 className="text-xl font-semibold">Educación Básica</h6></a>
 										<p className="mt-2 mb-4 text-gray-600">
-											Divide details about your product or agency work into
-											parts. A paragraph describing a feature will be enough.
+										Garantiza el derecho a la educación pública y gratuita, estipulado en el artículo tercero constitucional, 
+										a todas las niñas, niños, adolescentes y jóvenes asegurando la igualdad de oportunidades para acceder 
+										a una educación básica de calidad, donde adquieran los conocimientos y habilidades necesarios que les 
+										permitan lograr una trayectoria escolar exitosa y una formación humana integral.
 										</p>
 									</div>
 								</div>
@@ -88,12 +92,14 @@ export default function Landing() {
 								<div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
 									<div className="px-4 py-5 flex-auto">
 										<div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400">
-											<i className="fas fa-retweet"></i>
+											<i className="fas fa-award"></i>
 										</div>
-										<h6 className="text-xl font-semibold">Free Revisions</h6>
+										<a href="http://educacionmediasuperior.sep.gob.mx/">
+										<h6 className="text-xl font-semibold">Educación Media Superior</h6></a>
 										<p className="mt-2 mb-4 text-gray-600">
-											Keep you user engaged by providing meaningful information.
-											Remember that by this time, the user is curious.
+										El nivel medio superior está dividido en bachillerato general, bachillerato tecnológico y profesional técnico. 
+										Los primeros dos son de carácter propedéutico, es decir, preparan a los alumnos para ingresar a la universidad. 
+										Mientras que en el último se preparan a los alumnos para que puedan ingresar directamente al campo laboral. 
 										</p>
 									</div>
 								</div>
@@ -103,12 +109,14 @@ export default function Landing() {
 								<div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
 									<div className="px-4 py-5 flex-auto">
 										<div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400">
-											<i className="fas fa-fingerprint"></i>
+											<i class="fas fa-graduation-cap"></i>
 										</div>
-										<h6 className="text-xl font-semibold">Verified Company</h6>
+										<a href="https://www.educacionsuperior.sep.gob.mx/">
+										<h6 className="text-xl font-semibold">Educacion Superior</h6></a>
 										<p className="mt-2 mb-4 text-gray-600">
-											Write a few lines about each one. A paragraph describing a
-											feature will be enough. Keep you user engaged!
+										Secretaría de Educación Pública encargada de impulsar una educación de calidad que permita
+										 la formación de profesionistas competitivos y comprometidos con el desarrollo regional y nacional,
+										 para contribuir a la edificación de una sociedad más justa.
 										</p>
 									</div>
 								</div>
@@ -116,14 +124,18 @@ export default function Landing() {
 						</div>
 
 						<div className="flex flex-wrap items-center mt-32">
-							<div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
-								<div className="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100">
-									<i className="fas fa-user-friends text-xl"></i>
-								</div>
+							<div className="w-full md:w-5/12 px-4 mr-auto ml-auto rounded-lg bg-gray-300">
 								<h3 className="text-3xl mb-2 font-semibold leading-normal">
-									Working with us is a pleasure
+									Biblioteca Digital Infantil y Juvenil
 								</h3>
-								<p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
+								<a href="https://tripulantes.sep.gob.mx/">
+								<img
+										alt="..."
+										src="https://www.gob.mx/cms/uploads/image/file/703332/block1.jpg"
+										className="w-full align-middle rounded-lg"
+									/>
+								</a>
+								{/* <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-white">
 									Don't let your uses guess by attaching tooltips and popoves to
 									any element. Just make sure you enable them first via
 									JavaScript.
@@ -133,23 +145,21 @@ export default function Landing() {
 									started faster. You can change the text and images and you're
 									good to go. Just make sure you enable them first via
 									JavaScript.
-								</p>
-								<a
-									href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
-									className="font-bold text-gray-800 mt-8"
-								>
-									Check Tailwind Starter Kit!
-								</a>
+								</p> */}
+								
 							</div>
-
+							
 							<div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
-								<div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-600">
+								<div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-emerald-600">
+									<a href="https://murales.sep.gob.mx/">
 									<img
 										alt="..."
-										src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80"
+										src="https://murales.sep.gob.mx/work/models/demo/Resource/59/1/images/2-muralismo.jpg"
 										className="w-full align-middle rounded-t-lg"
 									/>
+									</a>
 									<blockquote className="relative p-8 mb-4">
+									<a href="https://murales.sep.gob.mx/">
 										<svg
 											preserveAspectRatio="none"
 											xmlns="http://www.w3.org/2000/svg"
@@ -160,18 +170,22 @@ export default function Landing() {
 												top: "-94px",
 											}}
 										>
+											
 											<polygon
 												points="-30,95 583,95 583,65"
-												className="text-pink-600 fill-current"
+												className="text-emerald-600 fill-current"
 											></polygon>
 										</svg>
+										</a>
 										<h4 className="text-xl font-bold text-white">
-											Top Notch Services
+											Paseo por los murales
 										</h4>
 										<p className="text-md font-light mt-2 text-white">
-											The Arctic Ocean freezes every winter and much of the
-											sea-ice then thaws every summer, and that process will
-											continue whatever happens.
+										La intención de este portal es ofrecer información básica para 
+										conocer el vínculo entre el recinto histórico de la Secretaría de 
+										Educación Pública (SEP), en el centro histórico de la ciudad de México, 
+										y el muralismo, la tendencia pictórica más importante de la cultura 
+										mexicana moderna.
 										</p>
 									</blockquote>
 								</div>
@@ -180,7 +194,7 @@ export default function Landing() {
 					</div>
 				</section>
 
-				<section className="relative py-20">
+				<section className="relative py-20 ">
 					<div
 						className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
 						style={{ height: "80px" }}
@@ -201,21 +215,21 @@ export default function Landing() {
 						</svg>
 					</div>
 
-					<div className="container mx-auto px-4">
+					<div className="container mx-auto px-4 ">
 						<div className="items-center flex flex-wrap">
-							<div className="w-full md:w-4/12 ml-auto mr-auto px-4">
+							<div className="w-full md:w-7/12 ml-auto mr-auto px-6">
+								<a href="https://sep.gob.mx/lagrandezademexico/">
 								<img
 									alt="..."
 									className="max-w-full rounded-lg shadow-lg"
-									src="https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+									src="https://www.gob.mx/cms/uploads/image/file/703331/block3.jpg"
 								/>
+								</a>
 							</div>
-							<div className="w-full md:w-5/12 ml-auto mr-auto px-4">
-								<div className="md:pr-12">
-									<div className="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300">
-										<i className="fas fa-rocket text-xl"></i>
-									</div>
-									<h3 className="text-3xl font-semibold">A growing company</h3>
+							<div className="w-full md:w-4/12 ml-auto mr-auto px-4">
+								<div className="md:pr-14 ">
+									
+									<h3 className="text-3xl font-semibold ">A growing company</h3>
 									<p className="mt-4 text-lg leading-relaxed text-gray-600">
 										The extension comes with three pre-built pages to help you
 										get started faster. You can change the text and images and
@@ -281,7 +295,6 @@ export default function Landing() {
 								</p>
 							</div>
 						</div>
-						
 						<div className="flex flex-wrap">
 							<div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
 								<div className="px-6">
