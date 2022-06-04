@@ -60,7 +60,7 @@ export default function Landing() {
 							y="0"
 						>
 							<polygon
-								className="text-gray-300 fill-current"
+								className="text-red-800 fill-current"
 								points="2560 0 2560 100 0 100"
 							></polygon>
 						</svg>
@@ -70,6 +70,161 @@ export default function Landing() {
 				<section className="pb-20 bg-gray-300 -mt-24">
 					<div className="container mx-auto px-4">
 						<div className="flex flex-wrap">
+							<div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+								<div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+									<div className="px-4 py-5 flex-auto">
+										<div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-500">
+											<i className="fas fa-pen"></i>
+										</div>
+										<a href="https://educacionbasica.sep.gob.mx/">
+										<h6 className="text-xl font-semibold">Educación Básica</h6></a>
+										<p className="mt-2 mb-4 text-gray-600">
+										Garantiza el derecho a la educación pública y gratuita, estipulado en el artículo tercero constitucional, 
+										a todas las niñas, niños, adolescentes y jóvenes asegurando la igualdad de oportunidades para acceder 
+										a una educación básica de calidad, donde adquieran los conocimientos y habilidades necesarios que les 
+										permitan lograr una trayectoria escolar exitosa y una formación humana integral.
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<div className="w-full md:w-4/12 px-4 text-center">
+								<div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+									<div className="px-4 py-5 flex-auto">
+										<div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400">
+											<i className="fas fa-award"></i>
+										</div>
+										<a href="http://educacionmediasuperior.sep.gob.mx/">
+										<h6 className="text-xl font-semibold">Educación Media Superior</h6></a>
+										<p className="mt-2 mb-4 text-gray-600">
+										El nivel medio superior está dividido en bachillerato general, bachillerato tecnológico y profesional técnico. 
+										Los primeros dos son de carácter propedéutico, es decir, preparan a los alumnos para ingresar a la universidad. 
+										Mientras que en el último se preparan a los alumnos para que puedan ingresar directamente al campo laboral. 
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<div className="pt-6 w-full md:w-4/12 px-4 text-center">
+								<div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+									<div className="px-4 py-5 flex-auto">
+										<div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-500">
+											<i class="fas fa-graduation-cap"></i>
+										</div>
+										<a href="https://www.educacionsuperior.sep.gob.mx/">
+										<h6 className="text-xl font-semibold">Educacion Superior</h6></a>
+										<p className="mt-2 mb-4 text-gray-600">
+										Secretaría de Educación Pública encargada de impulsar una educación de calidad que permita
+										 la formación de profesionistas competitivos y comprometidos con el desarrollo regional y nacional,
+										 para contribuir a la edificación de una sociedad más justa.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+
+						<div className="flex flex-wrap items-center mt-30">
+							<div className="w-full md:w-9/12 px-4 mr-auto ml-auto">
+								<div className="w-full md:w-2/12 px-4 mr-auto ml-auto">
+									<h2 className="w-full text-4xl mb-4 p-5 font-semibold align-middle text-red-800">
+										Cultura
+									</h2>
+								</div>
+							</div>
+							<div className="w-full md:w-6/12 px-4 mr-auto ml-auto rounded-lg bg-gray-300">
+								<a href="https://tripulantes.sep.gob.mx/">
+									<img
+											alt="..."
+											src="https://www.gob.mx/cms/uploads/image/file/703332/block1.jpg"
+											className="w-full align-middle rounded-lg mb-4"
+									/>
+								</a>							
+							</div>
+							
+							<div className="w-full md:w-6/12 px-4 mr-auto ml-auto">
+								<div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-4 shadow-lg rounded-lg bg-orange-600">
+									<a href="https://murales.sep.gob.mx/">
+									<img
+										alt="..."
+										src="https://www.gob.mx/cms/uploads/image/file/703330/block2.jpg"
+										className="w-full align-middle rounded-lg"
+									/>
+									</a>
+									<blockquote className="relative p-8 mb-4">
+									<a href="https://murales.sep.gob.mx/">
+										<svg
+											preserveAspectRatio="none"
+											xmlns="http://www.w3.org/2000/svg"
+											viewBox="0 0 583 95"
+											className="absolute left-0 w-full block"
+											style={{
+												height: "95px",
+												top: "-94px",
+											}}
+										>
+											
+											<polygon
+												points="-30,95 583,95 583,65"
+												className="text-orange-600 fill-current"
+											></polygon>
+										</svg>
+										</a>
+										<p className="text-md font-light mt-2 text-white">
+										La intención de este portal es ofrecer información básica para 
+										conocer el vínculo entre el recinto histórico de la Secretaría de 
+										Educación Pública (SEP), en el centro histórico de la ciudad de México, 
+										y el muralismo, la tendencia pictórica más importante de la cultura 
+										mexicana moderna.
+										</p>
+									</blockquote>
+								</div>
+							</div>
+							<div className="w-full md:w-9/12 px-2 mr-auto ml-auto">
+								<div className="w-full text-2xl p-2 font-semibold align-middle">
+									<a href="https://sep.gob.mx/lagrandezademexico/">
+										<img
+											alt="..."
+											className="max-w-full  shadow-lg w-full align-middle rounded-lg"
+											src="https://www.gob.mx/cms/uploads/image/file/703331/block3.jpg"
+										/>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				
+
+				<section className="relative py-20 ">
+					<div
+						className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+						style={{ height: "80px" }}
+					>
+						<svg
+							className="absolute bottom-0 overflow-hidden"
+							xmlns="http://www.w3.org/2000/svg"
+							preserveAspectRatio="none"
+							version="1.1"
+							viewBox="0 0 2560 100"
+							x="0"
+							y="0"
+						>
+							<polygon
+								className="text-red-800 fill-current"
+								points="2560 0 2560 100 0 100"
+							></polygon>
+						</svg>
+					</div>
+					<div className="w-full md:w-6/12 px-4 mr-auto ml-auto">
+								<div className="w-full md:w-1/12 px-4 mr-auto ml-auto">
+									<h2 className="w-full text-4xl mb-4 p-5 font-semibold align-middle text-red-800">
+										Cultura
+									</h2>
+								</div>
+							</div>
+					<div className="flex flex-wrap">
 							<div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
 								<div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
 									<div className="px-4 py-5 flex-auto">
@@ -108,7 +263,7 @@ export default function Landing() {
 							<div className="pt-6 w-full md:w-4/12 px-4 text-center">
 								<div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
 									<div className="px-4 py-5 flex-auto">
-										<div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400">
+										<div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-orange-200">
 											<i class="fas fa-graduation-cap"></i>
 										</div>
 										<a href="https://www.educacionsuperior.sep.gob.mx/">
@@ -122,165 +277,6 @@ export default function Landing() {
 								</div>
 							</div>
 						</div>
-
-						<div className="flex flex-wrap items-center mt-32">
-							<div className="w-full md:w-5/12 px-4 mr-auto ml-auto rounded-lg bg-gray-300">
-								<h3 className="text-3xl mb-2 font-semibold leading-normal">
-									Biblioteca Digital Infantil y Juvenil
-								</h3>
-								<a href="https://tripulantes.sep.gob.mx/">
-								<img
-										alt="..."
-										src="https://www.gob.mx/cms/uploads/image/file/703332/block1.jpg"
-										className="w-full align-middle rounded-lg"
-									/>
-								</a>
-								{/* <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-white">
-									Don't let your uses guess by attaching tooltips and popoves to
-									any element. Just make sure you enable them first via
-									JavaScript.
-								</p>
-								<p className="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700">
-									The kit comes with three pre-built pages to help you get
-									started faster. You can change the text and images and you're
-									good to go. Just make sure you enable them first via
-									JavaScript.
-								</p> */}
-								
-							</div>
-							
-							<div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
-								<div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-emerald-600">
-									<a href="https://murales.sep.gob.mx/">
-									<img
-										alt="..."
-										src="https://murales.sep.gob.mx/work/models/demo/Resource/59/1/images/2-muralismo.jpg"
-										className="w-full align-middle rounded-t-lg"
-									/>
-									</a>
-									<blockquote className="relative p-8 mb-4">
-									<a href="https://murales.sep.gob.mx/">
-										<svg
-											preserveAspectRatio="none"
-											xmlns="http://www.w3.org/2000/svg"
-											viewBox="0 0 583 95"
-											className="absolute left-0 w-full block"
-											style={{
-												height: "95px",
-												top: "-94px",
-											}}
-										>
-											
-											<polygon
-												points="-30,95 583,95 583,65"
-												className="text-emerald-600 fill-current"
-											></polygon>
-										</svg>
-										</a>
-										<h4 className="text-xl font-bold text-white">
-											Paseo por los murales
-										</h4>
-										<p className="text-md font-light mt-2 text-white">
-										La intención de este portal es ofrecer información básica para 
-										conocer el vínculo entre el recinto histórico de la Secretaría de 
-										Educación Pública (SEP), en el centro histórico de la ciudad de México, 
-										y el muralismo, la tendencia pictórica más importante de la cultura 
-										mexicana moderna.
-										</p>
-									</blockquote>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-
-				<section className="relative py-20 ">
-					<div
-						className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
-						style={{ height: "80px" }}
-					>
-						<svg
-							className="absolute bottom-0 overflow-hidden"
-							xmlns="http://www.w3.org/2000/svg"
-							preserveAspectRatio="none"
-							version="1.1"
-							viewBox="0 0 2560 100"
-							x="0"
-							y="0"
-						>
-							<polygon
-								className="text-white fill-current"
-								points="2560 0 2560 100 0 100"
-							></polygon>
-						</svg>
-					</div>
-
-					<div className="container mx-auto px-4 ">
-						<div className="items-center flex flex-wrap">
-							<div className="w-full md:w-7/12 ml-auto mr-auto px-6">
-								<a href="https://sep.gob.mx/lagrandezademexico/">
-								<img
-									alt="..."
-									className="max-w-full rounded-lg shadow-lg"
-									src="https://www.gob.mx/cms/uploads/image/file/703331/block3.jpg"
-								/>
-								</a>
-							</div>
-							<div className="w-full md:w-4/12 ml-auto mr-auto px-4">
-								<div className="md:pr-14 ">
-									
-									<h3 className="text-3xl font-semibold ">A growing company</h3>
-									<p className="mt-4 text-lg leading-relaxed text-gray-600">
-										The extension comes with three pre-built pages to help you
-										get started faster. You can change the text and images and
-										you're good to go.
-									</p>
-									<ul className="list-none mt-6">
-										<li className="py-2">
-											<div className="flex items-center">
-												<div>
-													<span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3">
-														<i className="fas fa-fingerprint"></i>
-													</span>
-												</div>
-												<div>
-													<h4 className="text-gray-600">
-														Carefully crafted components
-													</h4>
-												</div>
-											</div>
-										</li>
-										<li className="py-2">
-											<div className="flex items-center">
-												<div>
-													<span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3">
-														<i className="fab fa-html5"></i>
-													</span>
-												</div>
-												<div>
-													<h4 className="text-gray-600">
-														Amazing page examples
-													</h4>
-												</div>
-											</div>
-										</li>
-										<li className="py-2">
-											<div className="flex items-center">
-												<div>
-													<span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3">
-														<i className="far fa-paper-plane"></i>
-													</span>
-												</div>
-												<div>
-													<h4 className="text-gray-600">Dynamic components</h4>
-												</div>
-											</div>
-										</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
 				</section>
 
 				<section className="pt-20 pb-48">
