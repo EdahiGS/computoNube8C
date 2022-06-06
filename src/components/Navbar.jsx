@@ -18,9 +18,9 @@ export default function Navbar(props) {
               (props.transparent ? "text-white" : "text-gray-800") +
               " text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
             }
-            href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
+            href="https://www.gob.mx/sep/acciones-y-programas/secretaria-de-educacion-publica"
           >
-            Tailwind Starter Kit
+            Acerca de la SEP
           </a>
           <button
             className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
@@ -51,7 +51,7 @@ export default function Navbar(props) {
                     : "text-gray-800 hover:text-gray-600") +
                   " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 }
-                href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/landing"
+                href="https://sep.gob.mx/mexterior/"
               >
                 <i
                   className={
@@ -61,7 +61,7 @@ export default function Navbar(props) {
                     " far fa-file-alt text-lg leading-lg mr-2"
                   }
                 />{" "}
-                Docs
+                Mexterior
               </a>
             </li>
           </ul>
@@ -74,7 +74,7 @@ export default function Navbar(props) {
                     : "text-gray-800 hover:text-gray-600") +
                   " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 }
-                href="#pablo"
+                href="https://www.facebook.com/gobmexico"
               >
                 <i
                   className={
@@ -84,7 +84,7 @@ export default function Navbar(props) {
                     " fab fa-facebook text-lg leading-lg "
                   }
                 />
-                <span className="lg:hidden inline-block ml-2">Share</span>
+                <span className="lg:hidden inline-block ml-2">Facebook</span>
               </a>
             </li>
 
@@ -96,7 +96,7 @@ export default function Navbar(props) {
                     : "text-gray-800 hover:text-gray-600") +
                   " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 }
-                href="#pablo"
+                href="https://twitter.com/GobiernoMX"
               >
                 <i
                   className={
@@ -106,45 +106,26 @@ export default function Navbar(props) {
                     " fab fa-twitter text-lg leading-lg "
                   }
                 />
-                <span className="lg:hidden inline-block ml-2">Tweet</span>
-              </a>
-            </li>
-
-            <li className="flex items-center">
-              <a
-                className={
-                  (props.transparent
-                    ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
-                    : "text-gray-800 hover:text-gray-600") +
-                  " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                }
-                href="#pablo"
-              >
-                <i
-                  className={
-                    (props.transparent
-                      ? "lg:text-gray-300 text-gray-500"
-                      : "text-gray-500") +
-                    " fab fa-github text-lg leading-lg "
-                  }
-                />
-                <span className="lg:hidden inline-block ml-2">Star</span>
+                <span className="lg:hidden inline-block ml-2">Twitter</span>
               </a>
             </li>
 
             <li className="flex items-center">
               <button
+              
                 className={
                   (props.transparent
                     ? "bg-white text-gray-800 active:bg-gray-100"
                     : "bg-pink-500 text-white active:bg-pink-600") +
                   " text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
+                  
                 }
                 type="button"
                 style={{ transition: "all .15s ease" }}
               >
-                <i className="fas fa-arrow-alt-circle-down"></i> Download
-              </button>
+                <a href="https://www.gob.mx/sep/es/archivo/articulos">
+                <i className="fas fa-newspaper"></i> Boletines
+                </a></button>
             </li>
           </ul>
         </div>
