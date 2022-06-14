@@ -70,12 +70,7 @@ export default function Footer() {
                     <a className="text-black hover:text-blueGray-500 font-semibold block pb-2 text-sm"
                         href="http://alertadores.funcionpublica.gob.mx/">Alerta
                     </a>
-                  </li>
-                  <li>
-                    <a className="text-black hover:text-blueGray-500 font-semibold block pb-2 text-sm"
-                        href="http://sidec.funcionpublica.gob.mx/">Denuncia
-                    </a>
-                  </li>
+                  </li>                 
                 </ul>
               </div>
               <div className="w-full lg:w-4/12 px-4">
@@ -85,22 +80,12 @@ export default function Footer() {
                 <ul className="list-unstyled">
                   <li>
                     <a className="text-black hover:text-blueGray-500 font-semibold block pb-2 text-sm"
-                    href="https://www.gob.mx/sep/en">English
-                  </a>
-                  </li>
-                  <li>
-                    <a className="text-black hover:text-blueGray-500 font-semibold block pb-2 text-sm"
-                        href="https://www.gob.mx/temas">Temas
-                    </a>
-                  </li>
-                  <li>
-                    <a className="text-black hover:text-blueGray-500 font-semibold block pb-2 text-sm"
                         href="https://www.gob.mx/accesibilidad">Declaración de Accesibilidad
                     </a>
                   </li>
                   <li>
                     <a className="text-black hover:text-blueGray-500 font-semibold block pb-2 text-sm"
-                        href="https://www.gob.mx/accesibilidad">Aviso de privacidad
+                        href="https://www.gob.mx/privacidadintegral">Aviso de privacidad
                     </a>
                   </li>
                   <li>
@@ -116,11 +101,6 @@ export default function Footer() {
                   <li>
                     <a className="text-black hover:text-blueGray-500 font-semibold block pb-2 text-sm"
                         href="https://www.gob.mx/terminos#medidas-seguridad-informacion">Política de seguridad
-                    </a>
-                  </li>
-                  <li>
-                    <a className="text-black hover:text-blueGray-500 font-semibold block pb-2 text-sm"
-                        href="http://www.ordenjuridico.gob.mx/">Marco jurídico
                     </a>
                   </li>
                   <li>
